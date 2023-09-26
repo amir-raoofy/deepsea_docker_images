@@ -8,6 +8,7 @@ RUN zypper install -y unzip zip
 RUN zypper install -y python3-devel 
 RUN zypper install -y python3-dist  
 RUN zypper install -y gcc
+RUN zypper install -y gcc-c++ 
 RUN zypper install -y gcc-fortran  
 RUN zypper install -y curl 
 RUN zypper install -y environment-modules   
