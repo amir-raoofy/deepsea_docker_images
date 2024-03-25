@@ -1,0 +1,20 @@
+FROM opensuse/leap:15.4
+
+RUN zypper update -y 
+RUN zypper install -y wget rsync cmake openssl libopenssl-devel p7zip p7zip-full 
+RUN zypper install -y --type pattern devel_basis 
+RUN zypper install -y git gpg2
+RUN zypper install -y lsb-release python3 
+RUN zypper install -y unzip zip 
+RUN zypper install -y python3-devel 
+RUN zypper install -y python3-dist  
+RUN zypper install -y gcc
+RUN zypper install -y gcc-c++ 
+RUN zypper install -y gcc-fortran  
+RUN zypper install -y curl 
+RUN zypper install -y environment-modules   
+RUN zypper install -y ca-certificates   
+RUN zypper install -y patchelf  
+RUN zypper install -y zlib 
+RUN zypper install -y gzip 
+RUN zypper install -y bzip 
