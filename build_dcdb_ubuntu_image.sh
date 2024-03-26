@@ -1,1 +1,1 @@
-docker build -t amirraoofy/deep_sea_ubuntu_image:v0.1 -f Dockerfile_spack_ubuntu . 
+docker build -t amirraoofy/dcdb_ubuntu_image:v0.1 -f Dockerfile_dcdb_ubuntu . 
