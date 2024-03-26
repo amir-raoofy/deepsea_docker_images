@@ -2,7 +2,7 @@ FROM rockylinux:9
 
 RUN dnf update -y
 
-RUN dnf install -y dnf install wget rsync cmake openssl openssl-devel p7zip
+RUN dnf install -y wget rsync cmake openssl openssl-devel p7zip
 
 RUN dnf install epel-release -y
 RUN dnf group install -y "Development Tools"
